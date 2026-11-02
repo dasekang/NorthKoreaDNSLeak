@@ -1,5 +1,3 @@
-![North Korean Flag](https://i.imgur.com/o3mHZ9h.png)
-
 # North Korea .kp TLD Zone Data
 
 On Sept 19, 2016 at approximately 10:00PM (PDT), one of North Korea's top level nameservers was accidentally configured to allow global DNS zone transfers. This allows anyone who performs an `AXFR` (zone transfer) request to the country's `ns2.kptc.kp` nameserver to get a copy of the nation's top level DNS data. This was detected by the [TLDR Project](https://github.com/mandatoryprogrammer/TLDR) - an effort to attempt zone transfers against all top level domain (TLD) nameservers every three hours and keep a running Github repo with the resulting data. This data gives us a better picture of North Korea's domains and top level DNS.
